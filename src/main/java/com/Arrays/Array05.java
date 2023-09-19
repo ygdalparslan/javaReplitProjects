@@ -42,6 +42,5 @@ public class Array05 {
         } else {
             System.out.println("**False**");
         }
-
     }
 }
