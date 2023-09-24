@@ -20,16 +20,18 @@ public class Array10 {
     public static void main(String[] args) {
 
         String str = "Java is fun";
-        String[] arrSt =str.split(" ");
+        //String[] arrSt =str.split(" ");
 
-        String str2 ="";
+        String reversed ="";
 
-        for (int i = arrSt.length-1; i >=0 ; i--) {
+        for (int i = str.length()-1; i >=0 ; i--) {
 
-            str2=str2+arrSt[i]+" ";
+            reversed+=str.charAt(i);
 
         }
 
-        System.out.println(str2);
+        System.out.println(reversed);
+
+
     }
 }
