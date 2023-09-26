@@ -2,7 +2,7 @@ package com.Collections;
 
 import java.util.Collections;
 import java.util.LinkedList;
-import java.util.ListIterator;
+
 
 /*
 Bir LinkedList oluşturalım ve ilk eleman ile 4. elemanı yerdeğiştiren java kodunu yazınız.
